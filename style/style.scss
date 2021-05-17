@@ -1,0 +1,14 @@
+@use 'variables';
+
+@use 'mixins';
+
+@use 'config/font' ;
+
+@use 'config/colors';
+
+@use 'components/navbar';
+
+body{
+    font-size: font.$title-h4-font-family;
+    
+}
