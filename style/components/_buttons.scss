@@ -17,6 +17,7 @@ button.button {
         background-color: $accent;
     }
     &.secondary {
-        background-color: $accent2;
+        background-color: $white;
+        color: $primary;
     }
 }
