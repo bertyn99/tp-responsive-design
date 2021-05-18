@@ -1,0 +1,25 @@
+@import '../variables';
+@import '../mixins';
+
+section{
+    width: 100%;
+    &.banner{
+        display: flex;
+        height: 880px;
+        color: $primary;
+        .side{
+            min-width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .banner-button{
+
+            }
+        }
+        .side-image{
+            min-width: 50%;
+            background-color: $accent;
+        }
+    }
+}
+
