@@ -1,9 +1,16 @@
 
 
+@import 'text';
+
 @import 'mixins';
 
+@import 'section/services';
+@import 'section/contact';
+@import 'section/footer';
 
 @import 'components/header';
+@import 'components/buttons';
+@import 'components/serviceCard';
 
 *{
      margin:0; 

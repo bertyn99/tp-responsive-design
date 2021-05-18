@@ -1,0 +1,65 @@
+@import '../variables';
+
+footer.footer {
+    background-color: $accent2;
+    padding: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    h2 {
+        color: $white;
+        text-align: center;
+    }
+    div.ft-column {
+        width: calc(100vw/3);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        p {
+            color: $grey;
+            font-size: $p-font-size;
+            font-family: $title-h4-font-family;
+            line-height: 1.8rem;
+            padding-bottom: 12px;
+        }
+        a {
+            color: $black;
+            line-height: 2.4rem;
+            font-size: $title-h4-size;
+            font-family: $title-h4-font-family;
+            font-weight: 500;
+        }
+        .logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            p {
+                color: $primary;
+                font-size: $title-h2-size-s;
+                font-family: $title-h2-font-family;
+                font-weight: 700;
+                padding-bottom: 0;
+                padding-left: 12px;
+            }
+            svg {
+                fill: $primary;
+                width: $logo-height;
+                height: $logo-height;
+            }
+        }
+        div.social-medias {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            svg {
+                width: $icon-l;
+                height: $icon-l;
+                margin-right: 12px;
+            }
+        }
+    }
+}

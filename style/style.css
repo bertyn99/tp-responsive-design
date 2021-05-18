@@ -12,6 +12,175 @@
 /* -------    Colors    -------- */
 /* ----------------------------- */
 /* ----------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+h2.title-section {
+  font-size: 2.8rem;
+  font-family: "Maven Pro";
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Fonts     -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Colors    -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+section.services {
+  background-color: #FFFFFF;
+  padding: 64px 0px 88px;
+}
+section.services h2 {
+  text-align: center;
+}
+section.services h2 span {
+  color: #7457B9;
+}
+section.services div.list-card {
+  padding-top: 64px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Fonts     -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Colors    -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+section.contact {
+  background-color: #7457B9;
+  padding: 64px;
+}
+section.contact h2 {
+  color: #FFFFFF;
+  text-align: center;
+}
+section.contact div.actions {
+  padding-top: 64px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Fonts     -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Colors    -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+footer.footer {
+  background-color: #E6D3A3;
+  padding: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+footer.footer h2 {
+  color: #FFFFFF;
+  text-align: center;
+}
+footer.footer div.ft-column {
+  width: calc(100vw/3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+footer.footer div.ft-column p {
+  color: #696969;
+  font-size: 1rem;
+  font-family: "Roboto";
+  line-height: 1.8rem;
+  padding-bottom: 12px;
+}
+footer.footer div.ft-column a {
+  color: #000000;
+  line-height: 2.4rem;
+  font-size: 1.1rem;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+footer.footer div.ft-column .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer.footer div.ft-column .logo p {
+  color: #7457B9;
+  font-size: 2rem;
+  font-family: "Maven Pro";
+  font-weight: 700;
+  padding-bottom: 0;
+  padding-left: 12px;
+}
+footer.footer div.ft-column .logo svg {
+  fill: #7457B9;
+  width: 60px;
+  height: 60px;
+}
+footer.footer div.ft-column div.social-medias {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer.footer div.ft-column div.social-medias svg {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Fonts     -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Colors    -------- */
+/* ----------------------------- */
+/* ----------------------------- */
 header {
   width: 100%;
   background-color: gray;
@@ -95,6 +264,106 @@ header {
 }
 .navbar .nav-menu a:hover {
   color: #333333;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Fonts     -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Colors    -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+button.button {
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-family: "Roboto";
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  letter-spacing: 0.8px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin: 8px;
+}
+button.button.primary {
+  background-color: #F7BF33;
+}
+button.button.secondary {
+  background-color: #FFFFFF;
+  color: #7457B9;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Fonts     -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Colors    -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+.service-card {
+  width: 80vw;
+  display: flex;
+}
+.service-card:first-of-type {
+  flex-direction: row;
+}
+.service-card:first-of-type .icon {
+  background-color: #7457B9;
+}
+.service-card:last-of-type {
+  flex-direction: row-reverse;
+}
+.service-card:last-of-type .icon {
+  background-color: #F7BF33;
+}
+.service-card img {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  box-shadow: 0 2.8px 2.2px -20px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px -20px rgba(0, 0, 0, 0.048), 0 12.5px 10px -20px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px -20px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px -20px rgba(0, 0, 0, 0.086), 0 100px 80px -20px rgba(0, 0, 0, 0.12);
+  border-radius: 24px;
+}
+.service-card .content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0px 64px;
+}
+.service-card .content-card .icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.service-card .content-card .icon svg {
+  fill: #FFFFFF;
+  width: 32px;
+  height: 32px;
+}
+.service-card .content-card h3 {
+  color: #000000;
+  font-size: 2rem;
+  font-family: "Maven Pro";
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+.service-card .content-card p {
+  color: #696969;
+  font-size: 1rem;
+  font-family: "Roboto";
+  line-height: 1.8rem;
 }
 
 * {
