@@ -50,11 +50,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
 h2.title-section {
   font-size: 2.8rem;
   font-family: "Maven Pro";
 }
 
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Fonts     -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Colors    -------- */
+/* ----------------------------- */
+/* ----------------------------- */
 /* ----------------------------- */
 /* ----------------------------- */
 /* -------    Fonts     -------- */
@@ -94,6 +124,26 @@ section.services div.list-card {
   align-items: center;
 }
 
+@media only screen and (max-width: 760px) {
+  section.services {
+    padding: 44px 24px 64px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  section.services {
+    padding: 44px 24px 64px;
+  }
+}
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Fonts     -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Colors    -------- */
+/* ----------------------------- */
+/* ----------------------------- */
 /* ----------------------------- */
 /* ----------------------------- */
 /* -------    Fonts     -------- */
@@ -106,7 +156,7 @@ section.services div.list-card {
 /* ----------------------------- */
 section.contact {
   background-color: #7457B9;
-  padding: 64px;
+  padding: 64px 24px;
 }
 section.contact h2 {
   color: #FFFFFF;
@@ -121,6 +171,26 @@ section.contact div.actions {
   align-items: center;
 }
 
+@media only screen and (max-width: 1200px) {
+  section.contact {
+    padding: 44px 24px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  section.contact div.actions {
+    flex-direction: column-reverse;
+  }
+}
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Fonts     -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Colors    -------- */
+/* ----------------------------- */
+/* ----------------------------- */
 /* ----------------------------- */
 /* ----------------------------- */
 /* -------    Fonts     -------- */
@@ -195,11 +265,47 @@ footer.footer div.ft-column div.social-medias svg {
   margin-right: 12px;
 }
 
+@media only screen and (max-width: 760px) {
+  footer.footer {
+    padding: 48px 24px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  footer.footer div.ft-column {
+    width: 100%;
+    margin-bottom: 44px;
+  }
+  footer.footer div.ft-column:last-of-type {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  footer.footer {
+    flex-wrap: wrap;
+  }
+  footer.footer div.ft-column:first-of-type {
+    width: 100%;
+    margin-bottom: 44px;
+  }
+  footer.footer div.ft-column {
+    width: calc(100%/2);
+  }
+}
 .navbar {
   display: flex;
   flex-wrap: wrap;
 }
 
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Fonts     -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Colors    -------- */
+/* ----------------------------- */
+/* ----------------------------- */
 /* ----------------------------- */
 /* ----------------------------- */
 /* -------    Fonts     -------- */
@@ -232,6 +338,22 @@ button.button.secondary {
   color: #7457B9;
 }
 
+@media only screen and (max-width: 760px) {
+  button.button {
+    width: 100%;
+    margin: 8px 24px;
+  }
+}
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Fonts     -------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* -------    Colors    -------- */
+/* ----------------------------- */
+/* ----------------------------- */
 /* ----------------------------- */
 /* ----------------------------- */
 /* -------    Fonts     -------- */
@@ -258,12 +380,17 @@ button.button.secondary {
 .service-card:last-of-type .icon {
   background-color: #F7BF33;
 }
-.service-card img {
-  width: 100%;
-  max-width: 360px;
-  height: auto;
-  box-shadow: 0 2.8px 2.2px -20px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px -20px rgba(0, 0, 0, 0.048), 0 12.5px 10px -20px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px -20px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px -20px rgba(0, 0, 0, 0.086), 0 100px 80px -20px rgba(0, 0, 0, 0.12);
+.service-card .container-image {
   border-radius: 24px;
+  box-shadow: 0 2.8px 2.2px -20px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px -20px rgba(0, 0, 0, 0.048), 0 12.5px 10px -20px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px -20px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px -20px rgba(0, 0, 0, 0.086), 0 100px 80px -20px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  min-width: 440px;
+  height: auto;
+  max-height: 550px;
 }
 .service-card .content-card {
   display: flex;
@@ -300,6 +427,69 @@ button.button.secondary {
   line-height: 1.8rem;
 }
 
+@media only screen and (max-width: 1200px) {
+  .service-card {
+    width: 90vw;
+  }
+  .service-card .container-image {
+    min-width: 40vw;
+    max-width: 40vw;
+    width: 40vw;
+    max-height: 550px;
+    align-self: center;
+    margin-bottom: 44px;
+  }
+  .service-card .container-image img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .service-card {
+    width: 90vw;
+  }
+  .service-card .container-image {
+    min-width: 40vw;
+    max-width: 40vw;
+    width: 40vw;
+    max-height: 550px;
+    align-self: center;
+    margin-bottom: 44px;
+  }
+  .service-card .container-image img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .service-card {
+    width: 100vw;
+  }
+  .service-card:first-of-type, .service-card:last-of-type {
+    flex-direction: column;
+  }
+  .service-card:last-of-type {
+    margin-top: 64px;
+  }
+  .service-card .container-image {
+    max-width: 100%;
+    width: 90%;
+    max-height: 300px;
+    align-self: center;
+    margin-bottom: 44px;
+  }
+  .service-card .container-image img {
+    width: 100%;
+  }
+  .service-card .content-card {
+    padding: 0px 24px;
+  }
+  .service-card .content-card .icon {
+    align-self: center;
+  }
+  .service-card .content-card h3, .service-card .content-card p {
+    text-align: center;
+    width: 100%;
+  }
+}
 * {
   padding: 0;
   margin: 0;
