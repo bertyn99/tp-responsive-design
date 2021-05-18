@@ -183,7 +183,7 @@ footer.footer div.ft-column div.social-medias svg {
 /* ----------------------------- */
 header {
   width: 100%;
-  background-color: gray;
+  background-color: transparent;
 }
 
 .navbar {
@@ -207,29 +207,32 @@ header {
 }
 .navbar .nav-content .nav-brand {
   display: flex;
-  color: white;
+  color: #696969;
+  justify-content: space-around;
   font-size: 1.5rem;
 }
 .navbar .nav-content .nav-brand .logo {
-  height: 30px;
+  height: 28px;
+  fill: #F7BF33;
+  padding-right: 5px;
 }
 .navbar .nav-content .nav-brand span {
   font-weight: bold;
 }
-.navbar .nav-content button {
+.navbar .nav-content #nav-toggle {
   background-color: transparent;
   box-shadow: transparent;
   cursor: pointer;
 }
 @media only screen and (min-width: 760px) {
-  .navbar .nav-content button {
+  .navbar .nav-content #nav-toggle {
     display: none;
   }
 }
-.navbar .nav-content button .nav-toggle {
-  height: 30px;
+.navbar .nav-content #nav-toggle .icon-toggle {
+  height: 28px;
 }
-.navbar .nav-content button:focus {
+.navbar .nav-content #nav-toggle:focus {
   color: #1a1a1a;
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -249,8 +252,9 @@ header {
 }
 .navbar .nav-menu a {
   font-size: 1rem;
-  padding: 12px 5px;
-  color: white;
+  padding: 12px 10px;
+  color: #696969;
+  font-weight: normal;
   display: block;
 }
 .navbar .nav-menu a.nav-link {
