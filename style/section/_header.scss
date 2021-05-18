@@ -36,6 +36,8 @@ header{
             }
         }
         #nav-toggle{
+            text-decoration: none;
+	border: none;
             @include bpFactory($s,-1){
                 display: none;
             }
