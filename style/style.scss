@@ -1,7 +1,13 @@
-@import 'variables';
+
 
 @import 'mixins';
 
 
 @import 'components/header';
 
+*{
+     margin:0; 
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
