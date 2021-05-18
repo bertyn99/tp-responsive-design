@@ -1,4 +1,5 @@
 @import '../variables';
+@import '../mixins';
 
 footer.footer {
     background-color: $accent2;
@@ -60,6 +61,34 @@ footer.footer {
                 height: $icon-l;
                 margin-right: 12px;
             }
+        }
+    }
+}
+
+@include bpFactory($max: $s) {  
+    footer.footer {
+        padding: 48px 24px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        div.ft-column {
+            width: 100%;
+            margin-bottom: 44px;
+            &:last-of-type {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+@include bpFactory($max: $m) {
+    footer.footer {
+        flex-wrap: wrap;
+        div.ft-column:first-of-type {
+            width: 100%;
+            margin-bottom: 44px;
+        }
+        div.ft-column {
+            width: calc(100%/2);
         }
     }
 }

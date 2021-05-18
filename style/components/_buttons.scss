@@ -1,4 +1,5 @@
 @import '../variables';
+@import '../mixins';
 
 button.button {
     color: $white;
@@ -19,5 +20,12 @@ button.button {
     &.secondary {
         background-color: $white;
         color: $primary;
+    }
+}
+
+@include bpFactory($max: $s) {
+    button.button {
+       width: 100%;
+       margin: 8px 24px;
     }
 }

@@ -1,8 +1,9 @@
 @import '../variables';
+@import '../mixins';
 
 section.contact {
     background-color: $primary;
-    padding: 64px;
+    padding: 64px 24px;
     h2 {
         color: $white;
         text-align: center;
@@ -14,5 +15,19 @@ section.contact {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@include bpFactory($max: $l) {
+    section.contact {
+        padding: 44px 24px;
+    }
+}
+
+@include bpFactory($max: $s) {
+    section.contact {
+        div.actions {
+            flex-direction: column-reverse;
+        }
     }
 }
