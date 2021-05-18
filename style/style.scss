@@ -1,14 +1,8 @@
-@use 'variables';
+@import 'variables';
 
-@use 'mixins';
+@import 'mixins';
 
-@use 'config/font' ;
 
-@use 'config/colors';
+@import 'components/header';
 
-@use 'components/navbar';
-
-body{
-    font-size: font.$title-h4-font-family;
-    
-}
+body {}
