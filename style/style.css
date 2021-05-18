@@ -12,20 +12,6 @@
 /* -------    Colors    -------- */
 /* ----------------------------- */
 /* ----------------------------- */
-/* ----------------------------- */
-/* ----------------------------- */
-/* -------    Fonts     -------- */
-/* ----------------------------- */
-/* ----------------------------- */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
-/* ----------------------------- */
-/* ----------------------------- */
-/* -------    Colors    -------- */
-/* ----------------------------- */
-/* ----------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
@@ -75,26 +61,6 @@ h2.title-section {
   font-family: "Maven Pro";
 }
 
-/* ----------------------------- */
-/* ----------------------------- */
-/* -------    Fonts     -------- */
-/* ----------------------------- */
-/* ----------------------------- */
-/* ----------------------------- */
-/* ----------------------------- */
-/* -------    Colors    -------- */
-/* ----------------------------- */
-/* ----------------------------- */
-/* ----------------------------- */
-/* ----------------------------- */
-/* -------    Fonts     -------- */
-/* ----------------------------- */
-/* ----------------------------- */
-/* ----------------------------- */
-/* ----------------------------- */
-/* -------    Colors    -------- */
-/* ----------------------------- */
-/* ----------------------------- */
 /* ----------------------------- */
 /* ----------------------------- */
 /* -------    Fonts     -------- */
@@ -291,9 +257,94 @@ footer.footer div.ft-column div.social-medias svg {
     width: calc(100%/2);
   }
 }
+
+header {
+  width: 100%;
+  background-color: transparent;
+}
+
 .navbar {
+  padding: 5px 20px;
+  /*  width: 100%; */
+  font-family: "Montserrat";
+  /* mobile menu*/
+}
+@media only screen and (min-width: 760px) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 20px;
+    align-items: center;
+  }
+}
+.navbar .nav-content {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .nav-content .nav-brand {
+  display: flex;
+  color: #696969;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+.navbar .nav-content .nav-brand .logo {
+  height: 28px;
+  fill: #F7BF33;
+  padding-right: 5px;
+}
+.navbar .nav-content .nav-brand span {
+  font-weight: bold;
+}
+.navbar .nav-content #nav-toggle {
+  background-color: transparent;
+  box-shadow: transparent;
+  cursor: pointer;
+}
+@media only screen and (min-width: 760px) {
+  .navbar .nav-content #nav-toggle {
+    display: none;
+  }
+}
+.navbar .nav-content #nav-toggle .icon-toggle {
+  height: 28px;
+}
+.navbar .nav-content #nav-toggle:focus {
+  color: #1a1a1a;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.navbar .nav-menu {
+  display: block;
+  background-color: yellow;
+  list-style-type: none;
+  margin-right: 0.05em;
+}
+@media only screen and (min-width: 760px) {
+  .navbar .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+}
+.navbar .nav-menu a {
+  font-size: 1rem;
+  padding: 12px 10px;
+  color: #696969;
+  font-weight: normal;
+  display: block;
+}
+.navbar .nav-menu a.nav-link {
+  text-align: center;
+}
+@media only screen and (max-width: 760px) {
+  .navbar .nav-menu a.nav-link {
+    display: none;
+    color: black;
+  }
+}
+.navbar .nav-menu a:hover {
+  color: #333333;
 }
 
 /* ----------------------------- */
@@ -491,6 +542,8 @@ button.button.secondary {
   }
 }
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,99 @@
-.navbar {
-    display: flex;
-    flex-wrap: wrap;
+@import '../variables';
+@import '../mixins';
+header{
+    width: 100%;
+    background-color: transparent;
 }
+
+.navbar {
+
+    @include bpFactory($s,-1){
+          display: flex;
+          justify-content: space-around;
+          padding: 5px 20px;
+          align-items: center;
+    };
+    padding: 5px 20px;
+   /*  width: 100%; */
+    font-family: 'Montserrat';
+    .nav-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-brand{
+            display: flex;
+            color: $grey;
+            justify-content: space-around;
+            font-size: $title-h3-size-s;
+            .logo{
+               height:$logo-height-s;
+               fill: $accent; 
+                padding-right: 5px;
+            }
+            span{
+                
+                font-weight: bold;
+            }
+        }
+        #nav-toggle{
+            @include bpFactory($s,-1){
+                display: none;
+            }
+
+            background-color: transparent;
+            box-shadow: transparent;
+           cursor: pointer;
+             .icon-toggle{
+            height: $logo-height-s;
+        }
+            
+            &:focus{
+                color: lighten($color: black, $amount: 10);
+                outline: 2px solid transparent;
+                outline-offset: 2px;
+            }
+        }
+
+       
+    }
+
+    /* mobile menu*/
+    
+    .nav-menu{
+        @include bpFactory($s,-1){
+            display: flex;
+            justify-content: space-between;
+            background-color:transparent;
+        }
+
+        display: block;
+        background-color: yellow;
+        list-style-type: none ;
+        margin-right: 0.05em;
+        
+           a{
+            font-size: $title-h4-size-s;
+            padding: 12px 10px;
+            color: $grey;
+            font-weight: normal;
+            display: block;
+                &.nav-link{
+                    text-align: center;
+                    @include bpFactory(-1,$s){
+                        display: none;
+                        color: black;
+                    }
+                }
+                &:hover{
+                    color: lighten($color: black, $amount: 20);
+                }
+           }
+          
+
+           
+        
+    }
+    
+}
+
+
