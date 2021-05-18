@@ -19,11 +19,15 @@
         900: 25,
         1000: 10
     );
-
     @return $tones;
 }
 
 // Main color palette
+$primary: #7457B9;
+$accent: #F7BF33;
+$secondary: #B7B3A2;
+$accent2: #E6D3A3;
+
 $palette: (
     primary: (
         h: 205,
