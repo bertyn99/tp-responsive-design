@@ -82,7 +82,7 @@
                     <span>The Groomer</span>
 
                 </div>
-                <button type="button" class="nav-toggle"><img class="icon-toggle" src="icons/menu.svg" alt=""></button>
+                <button type="button" id="nav-toggle"><img class="icon-toggle" src="icons/menu.svg" alt=""></button>
 
             </div>
             <div class="nav-menu">
@@ -268,9 +268,11 @@
         </div>
     </footer>
     <script>
-        document.querySelector('.nav-toggle').addEventListener('onclick', e => {
+        document.querySelector('#nav-toggle').addEventListener('click', e => {
             console.log(document.querySelector('.nav-link'))
-            document.querySelector('.nav-link').style.display = 'block'
+            document.querySelectorAll('.nav-link').forEach(e => {
+                e.classList.toggle('active')
+            })
         })
     </script>
 </body>

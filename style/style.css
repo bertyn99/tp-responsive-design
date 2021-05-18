@@ -239,7 +239,7 @@ header {
 }
 .navbar .nav-menu {
   display: block;
-  background-color: yellow;
+  background-color: #696969;
   list-style-type: none;
   margin-right: 0.05em;
 }
@@ -253,9 +253,8 @@ header {
 .navbar .nav-menu a {
   font-size: 1rem;
   padding: 12px 10px;
-  color: #696969;
+  color: black;
   font-weight: normal;
-  display: block;
 }
 .navbar .nav-menu a.nav-link {
   text-align: center;
@@ -266,8 +265,11 @@ header {
     color: black;
   }
 }
+.navbar .nav-menu a.nav-link.active {
+  display: block;
+}
 .navbar .nav-menu a:hover {
-  color: #333333;
+  color: #fbde95;
 }
 
 /* ----------------------------- */

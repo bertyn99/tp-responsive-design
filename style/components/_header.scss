@@ -67,25 +67,29 @@ header{
         }
 
         display: block;
-        background-color: yellow;
+        background-color: $grey;
         list-style-type: none ;
         margin-right: 0.05em;
         
            a{
             font-size: $title-h4-size-s;
             padding: 12px 10px;
-            color: $grey;
+            color: black;
             font-weight: normal;
-            display: block;
+            
                 &.nav-link{
                     text-align: center;
                     @include bpFactory(-1,$s){
                         display: none;
                         color: black;
                     }
+                    &.active{
+                        display: block;
+                    }
+                    
                 }
                 &:hover{
-                    color: lighten($color: black, $amount: 20);
+                    color: lighten($color: $accent, $amount: 20);
                 }
            }
           
