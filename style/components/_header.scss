@@ -1,32 +1,92 @@
 @import '../variables';
-
+@import '../mixins';
 header{
     width: 100%;
     background-color: gray;
 }
 
 .navbar {
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    justify-content: space-around;
-    align-items: center;
+
+    @include bpFactory($s,-1){
+          display: flex;
+          justify-content: space-around;
+          padding: 5px 20px;
+          align-items: center;
+    };
+    padding: 5px 20px;
+   /*  width: 100%; */
     font-family: 'Montserrat';
     .nav-content{
+        display: flex;
         justify-content: space-between;
         align-items: center;
         .nav-brand{
             display: flex;
             color: white;
-            font-size: ;
+            font-size: $title-h3-size-s;
             .logo{
-                min-height:$logo-height-m;
+               height:$logo-height-s;
+            }
+            span{
+                
+                font-weight: bold;
             }
         }
+        button{
+            @include bpFactory($s,-1){
+                display: none;
+            }
+
+            background-color: transparent;
+            box-shadow: transparent;
+           cursor: pointer;
+             .nav-toggle{
+            height: $logo-height-s;}
+            
+            &:focus{
+                color: lighten($color: black, $amount: 10);
+                outline: 2px solid transparent;
+                outline-offset: 2px;
+            }
+        }
+
+       
     }
-    .nav-link{
-        display: flex;
-        justify-content: space-around;
+
+    /* mobile menu*/
+    
+    .nav-menu{
+        @include bpFactory($s,-1){
+            display: flex;
+            justify-content: space-between;
+            background-color:transparent;
+        }
+
+        display: block;
+        background-color: yellow;
+        list-style-type: none ;
+        margin-right: 0.05em;
+        
+           a{
+            font-size: $title-h4-size-s;
+            padding: 12px 5px;
+            color: white;
+            display: block;
+                &.nav-link{
+                    text-align: center;
+                    @include bpFactory(-1,$s){
+                        display: none;
+                        color: black;
+                    }
+                }
+                &:hover{
+                    color: lighten($color: black, $amount: 20);
+                }
+           }
+          
+
+           
+        
     }
     
 }

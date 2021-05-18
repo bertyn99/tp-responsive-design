@@ -1,5 +1,4 @@
-
-
+/* ----------------------------- */
 /* ----------------------------- */
 /* -------    Fonts     -------- */
 /* ----------------------------- */
@@ -13,7 +12,94 @@
 /* -------    Colors    -------- */
 /* ----------------------------- */
 /* ----------------------------- */
+header {
+  width: 100%;
+  background-color: gray;
+}
+
 .navbar {
+  padding: 5px 20px;
+  /*  width: 100%; */
+  font-family: "Montserrat";
+  /* mobile menu*/
+}
+@media only screen and (min-width: 760px) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 20px;
+    align-items: center;
+  }
+}
+.navbar .nav-content {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .nav-content .nav-brand {
+  display: flex;
+  color: white;
+  font-size: 1.5rem;
+}
+.navbar .nav-content .nav-brand .logo {
+  height: 30px;
+}
+.navbar .nav-content .nav-brand span {
+  font-weight: bold;
+}
+.navbar .nav-content button {
+  background-color: transparent;
+  box-shadow: transparent;
+  cursor: pointer;
+}
+@media only screen and (min-width: 760px) {
+  .navbar .nav-content button {
+    display: none;
+  }
+}
+.navbar .nav-content button .nav-toggle {
+  height: 30px;
+}
+.navbar .nav-content button:focus {
+  color: #1a1a1a;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.navbar .nav-menu {
+  display: block;
+  background-color: yellow;
+  list-style-type: none;
+  margin-right: 0.05em;
+}
+@media only screen and (min-width: 760px) {
+  .navbar .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+}
+.navbar .nav-menu a {
+  font-size: 1rem;
+  padding: 12px 5px;
+  color: white;
+  display: block;
+}
+.navbar .nav-menu a.nav-link {
+  text-align: center;
+}
+@media only screen and (max-width: 760px) {
+  .navbar .nav-menu a.nav-link {
+    display: none;
+    color: black;
+  }
+}
+.navbar .nav-menu a:hover {
+  color: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */
