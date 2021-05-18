@@ -11,14 +11,17 @@ section{
             min-width: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            .banner-button{
+            padding: 10px 10px;
+            justify-content: space-around;
+            align-items: center;
 
-            }
+            .text{
+                text-align: center;
+            }   
         }
         .side-image{
             min-width: 50%;
-            background-color: $accent;
+            background:url('../../assets/imge.png') ;
         }
     }
 }

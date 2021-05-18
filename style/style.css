@@ -346,11 +346,16 @@ section.banner .side {
   min-width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  padding: 10px 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+section.banner .side .text {
+  text-align: center;
 }
 section.banner .side-image {
   min-width: 50%;
-  background-color: #F7BF33;
+  background: url("../../assets/imge.png");
 }
 
 /* ----------------------------- */
