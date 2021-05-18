@@ -1,7 +1,17 @@
 @import 'variables';
 
+@import 'text';
+
 @import 'mixins';
 
+@import 'section/services';
+@import 'section/contact';
 
 @import 'components/header';
 @import 'components/buttons';
+@import 'components/serviceCard';
+
+* {
+   padding: 0;
+   margin: 0;
+}

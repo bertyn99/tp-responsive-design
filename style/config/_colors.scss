@@ -27,34 +27,9 @@ $primary: #7457B9;
 $accent: #F7BF33;
 $secondary: #B7B3A2;
 $accent2: #E6D3A3;
-
-$palette: (
-    primary: (
-        h: 205,
-        s: 77,
-        l: 60
-    ),
-    secondary: (
-        h: 26,
-        s: 96,
-        l: 70
-    ),
-    tertiary: (
-        h: 229,
-        s: 61,
-        l: 50
-    ),
-    white: (
-        h: 348,
-        s: 83,
-        l: 60
-    ),
-    black: (
-        h: 202,
-        s: 10,
-        l: 51
-    )
-) !default;
+$black: #000000;
+$grey: #696969;
+$white: #FFFFFF;
 
 
 // States color palette

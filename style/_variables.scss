@@ -12,6 +12,14 @@ $xl: 1920px;
 
 $founder-wrapper-breakpoint-m: 1053px;
 
+// Shadow image
+$img-shadow: 0 2.8px 2.2px -20px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px -20px rgba(0, 0, 0, 0.048), 0 12.5px 10px -20px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px -20px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px -20px rgba(0, 0, 0, 0.086), 0 100px 80px -20px rgba(0, 0, 0, 0.12);
+
+// Border radius
+
+$br-round: 50%;
+$br-small: 24px;
+
 // Titles sizes
 $title-h2-size: 2.8rem;
 $title-h2-size-m: 2.2rem;
@@ -75,6 +83,11 @@ $header-height-m: 75px;
 // Logo heights
 $logo-height: 60px;
 $logo-height-m: 40px;
+
+// Icon size
+$icon-s: 18px;
+$icon-m: 24px;
+$icon-l: 32px;
 
 // Background opacity
 $bckgd-opacity-s: .4;

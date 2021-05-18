@@ -1,6 +1,22 @@
 @import '../variables';
 
-button.bPrimary {
-    background-color: $primary;
-    font-size: $title-h2-size-m;
+button.button {
+    color: $white;
+    font-size: $p-font-size;
+    font-family: $title-h4-font-family;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    letter-spacing: 0.8px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin: 8px;
+    &.primary {
+        background-color: $accent;
+    }
+    &.secondary {
+        background-color: $accent2;
+    }
 }

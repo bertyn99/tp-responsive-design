@@ -1,0 +1,61 @@
+@import '../variables';
+
+.service-card {
+    width: 80vw;
+    display: flex;
+    &:first-of-type {
+        flex-direction: row;
+        .icon {
+            background-color: $primary;
+        }
+    }
+    &:last-of-type {
+        flex-direction: row-reverse;
+        .icon {
+            background-color: $accent;
+        }
+    }
+    img {
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+        box-shadow: $img-shadow;
+        border-radius: $br-small;
+    }
+    .content-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 0px 64px;
+        .icon {
+            width: 64px;
+            height: 64px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: $br-round;
+            svg {
+                fill: $white;
+                width: $icon-l;
+                height: $icon-l;
+            }
+        }
+        
+        h3 {
+            color: $black;
+            font-size: $title-h2-size-s;
+            font-family: $title-h2-font-family;
+            padding-top: 24px;
+            padding-bottom: 12px;
+        }
+        p {
+            color: $grey;
+            font-size: $p-font-size;
+            font-family: $title-h4-font-family;
+            line-height: 1.8rem;
+        }
+    }
+    
+}
