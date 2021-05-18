@@ -7,6 +7,11 @@ section{
         display: flex;
         height: 880px;
         color: $primary;
+        @include bpFactory($max: $m) {
+           
+              flex-wrap: wrap-reverse;
+           
+        }
         .side{
             min-width: 50%;
             display: flex;
@@ -20,8 +25,14 @@ section{
             }   
         }
         .side-image{
+            @include bpFactory($max: $m) {
+           
+                flex-wrap: wrap-reverse;
+                background-size: auto;
+          }
             min-width: 50%;
-            background:url('../../assets/imge.png') ;
+            background:no-repeat center url('../../assets/groomer-img.png')  ;
+            background-size: contain;
         }
     }
 }

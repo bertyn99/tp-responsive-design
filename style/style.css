@@ -342,6 +342,11 @@ section.banner {
   height: 880px;
   color: #7457B9;
 }
+@media only screen and (max-width: 980px) {
+  section.banner {
+    flex-wrap: wrap-reverse;
+  }
+}
 section.banner .side {
   min-width: 50%;
   display: flex;
@@ -355,7 +360,14 @@ section.banner .side .text {
 }
 section.banner .side-image {
   min-width: 50%;
-  background: url("../../assets/imge.png");
+  background: no-repeat center url("../../assets/groomer-img.png");
+  background-size: contain;
+}
+@media only screen and (max-width: 980px) {
+  section.banner .side-image {
+    flex-wrap: wrap-reverse;
+    background-size: auto;
+  }
 }
 
 /* ----------------------------- */
